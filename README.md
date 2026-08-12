@@ -58,7 +58,7 @@ Focused on transistor sizing, DC/AC sweeps, transient behavior, noise analysis, 
 | # | Project Directory | Key Objectives & Concepts Covered |
 | --- | --- | --- |
 | 01 | [`01_CMOS_Inverter_VTC_Analysis`](./01_CMOS_Inverter_VTC_Analysis) | $V_m = V_{DD}/2$ sizing, VTC characterization, noise margins ($NM_L, NM_H$), propagation delay ($t_{pd}$), static/dynamic power. |
-| 02 | [`02_PMOS_MOSFET_Characterization`](https://www.google.com/search?q=./Analog_VLSI_Design/02_PMOS_MOSFET_Characterization) | PMOS $I$-$V$ family curves, current-mirror resistor sizing, $180\text{ nm}$ PDK NMOS bias point determination. |
+| 02 | [`02_PMOS_MOSFET_Characterization`](./02_PMOS_MOSFET_Characterization) | PMOS $I$-$V$ family curves, current-mirror resistor sizing, $180\text{ nm}$ PDK NMOS bias point determination. |
 | 03 | [`03_CS_Amplifier_PMOS_Resistive_Load`](https://www.google.com/search?q=./Analog_VLSI_Design/03_CS_Amplifier_PMOS_Resistive_Load) | Common-Source gain & pole location analysis, Phase Margin ($PM$), Gain-Bandwidth Product ($GBW$), input-referred noise. |
 | 04 | [`04_CS_Amplifier_Diff_Pair_Frequency_Response`](https://www.google.com/search?q=./Analog_VLSI_Design/04_CS_Amplifier_Diff_Pair_Frequency_Response) | NMOS differential pair with PMOS current mirror load, DC transfer sweep, AC Bode response. |
 | 05 | [`05_CS_Amplifier_Current_Mirror_Load`](https://www.google.com/search?q=./Analog_VLSI_Design/05_CS_Amplifier_Current_Mirror_Load) | Two-stage amplifier extension with PMOS second stage driver and Miller frequency compensation. |
