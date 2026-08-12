@@ -1,0 +1,45 @@
+VCD info: dumpfile railway_crossing.vcd opened for output.
+  [PASS] T1:                                        state is IDLE after reset
+  [PASS] T1:                                         gate is OPEN after reset
+  [PASS] T1:                                        road is GREEN after reset
+  [PASS] T1:                                     error_flag clear after reset
+  [PASS] T2:                                    enters WARNING after sensor_a
+  [PASS] T2:                                             enters CLOSING state
+  [PASS] T2:                             road turns RED while gate is closing
+  [PASS] T2:                             gate reaches CROSSING (fully closed)
+  [PASS] T2:                             gate_closed asserted during crossing
+  [PASS] T2:                                    enters OPENING after sensor_b
+  [PASS] T2:                           returns to IDLE after gate fully opens
+  [PASS] T2:                                      gate OPEN once back in IDLE
+  [PASS] T2:                                     road GREEN once back in IDLE
+  [PASS] T3:                                        train #1 reaches CROSSING
+  [PASS] T3:                             train #1 fully cleared, back to IDLE
+  [PASS] T3:                              train #2 reaches CROSSING correctly
+  [PASS] T3:                             train #2 fully cleared, back to IDLE
+  [PASS] T4:                          reaches CROSSING before lingering check
+  [PASS] T4:                     stays safely in CROSSING while train present
+  [PASS] T4:                            gate remains CLOSED throughout linger
+  [PASS] T4:                       gate reopens once departure finally sensed
+  [PASS] T5:                 unexpected sensor_b in IDLE -> ERROR (fail-safe)
+  [PASS] T5:                                gate forced CLOSED in ERROR state
+  [PASS] T5:                                              error_flag asserted
+  [PASS] T5:                                     recovers to IDLE after reset
+  [PASS] T6:                        simultaneous sensors -> ERROR (fail-safe)
+  [PASS] T6:                                   road forced RED in ERROR state
+  [PASS] T7:                 clean IDLE state restored after reset from ERROR
+  [PASS] T7:                                   error_flag cleared after reset
+
+===================== STATE COVERAGE REPORT =====================
+ S_IDLE    (0) :  HIT
+ S_WARNING (1) :  HIT
+ S_CLOSING (2) :  HIT
+ S_CROSS   (3) :  HIT
+ S_OPENING (4) :  HIT
+ S_ERROR   (5) :  HIT
+ Coverage = 6 / 6 states = 100 %
+===================================================================
+
+===================== TEST SUMMARY ===============================
+ ALL TESTS PASSED (0 errors)
+====================================================================
+testbench/tb_railway_crossing_controller.v:203: $finish called at 715000 (1ps)
