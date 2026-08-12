@@ -1,0 +1,10 @@
+Add these screenshots here (from Assignment_09 PDF):
+- vcd_log_usr_4bit.png
+- gtkwave_usr_4bit.png
+- report_area_usr_4bit.png (or full_synth_reports_usr_4bit.txt)
+- report_timing_alu_8bit.png
+- gtkwave_alu_8bit.png
+- report_area_alu_8bit.png
+- report_qor_alu_8bit.png
+- schematic_seq_detector.png (technology-mapped, RTL_MUX/RTL_REG_ASYNC)
+- report_area_power_qor_timing_seq_detector.png
