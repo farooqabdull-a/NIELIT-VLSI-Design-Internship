@@ -29,7 +29,7 @@ XX_Project_Name/
 | 06 | [06_FSM_Sequence_Detector](./06_FSM_Sequence_Detector) | '1001' sequence detector — Mealy vs. Moore FSM |
 | 07 | [07_VCS_Simulation](./07_VCS_Simulation) | 4-bit universal shift register & 8-bit ALU — Synopsys VCS + GTKWave |
 | 08 | [08_VCS_Coverage_Analysis](./08_VCS_Coverage_Analysis) | Functional coverage (line/toggle/branch/condition) for USR & ALU |
-| 09 | [09_Logic_Synthesis](./09_Logic_Synthesis) | Logic synthesis (Design Compiler) — USR, ALU, and '10110' sequence detector |
+| 09 | [09_Synthesis_DesignCompiler](./09_Synthesis_DesignCompiler) | Logic synthesis (Design Compiler) — USR, ALU, and '10110' sequence detector |
 
 ## Author
 **Farooq Abdulla**
