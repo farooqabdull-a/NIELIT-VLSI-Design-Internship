@@ -1,31 +1,37 @@
-# VLSI Design: Analog & Digital Design Flow
-This repository contains the lab assignments, simulation files, and design code completed during the 4-week Online Internship Training Program organized by **NIELIT Calicut** and **NIT Calicut**.
+# VLSI Design & Verification — NIELIT Calicut Internship Projects
 
-## 🛠️ Tools & Technologies Used
-* **Digital Design & Simulation:** ModelSim SE / Xilinx Vivado
-* **Digital Synthesis Concepts:** EDA Synthesis Tools (Synopsys/Cadence flow layout concepts)
-* **Languages:** Verilog HDL, Synopsys Design Constraints (SDC)
+This repository contains RTL design code, testbenches, schematics, and simulation/coverage/synthesis results from a series of Verilog HDL projects completed during an **Online Internship on Analog and Digital VLSI Design Flow (Batch 01)** at NIELIT Calicut.
 
----
+Tools used across the projects: **Xilinx Vivado**, **Synopsys VCS**, **GTKWave**, and **Synopsys Design Compiler**.
 
-## 📁 Repository Structure & Contents
+## Repository Structure
 
-### 1. Digital Logic Design & RTL Verification (`/digital_design`)
-* **RTL Modeling:** Verilog HDL code for combinational and sequential logic circuits.
-* **Testbenches & Verification:** Behavioral simulation scripts and testbenches executed on ModelSim/Vivado.
-* **Synthesis & Timing:** Example Synopsys Design Constraints (SDC) files, focusing on synthesis efforts, timing constraints, and area/delay optimization.
+Each project lives in its own numbered folder, structured as:
 
-### 2. Analog Circuit Design (`/analog_design`)
-* **Schematic & Layout Analysis:** Design files and simulation configurations for fundamental CMOS building blocks.
-* **Circuits Covered:**
-  * MOSFET characteristics & Current Mirrors (Standard & Cascode)
-  * CMOS Inverter (Schematic and Layout design)
-  * Common Source (CS) Amplifiers
-  * Two-Stage Operational Amplifiers (Op-Amps) with frequency compensation
+```
+XX_Project_Name/
+├── README.md          # Project-specific overview
+├── rtl/                # RTL design source files (.v)
+├── testbench/           # Testbench source files (.v)
+├── results/             # Schematic & simulation/coverage screenshots (.png)
+└── reports/              # (where applicable) synthesis area/power/timing reports (.txt)
+```
 
----
+## Projects
 
-## 📈 Key Learnings
-* Complete **RTL to GDSII** design flow methodologies.
-* Writing synthesizable, clean Verilog code and defining strict timing goals using SDC.
-* Small-signal modeling, noise, mismatch, and layout optimization in analog circuits.
+| # | Folder | Topic |
+|---|---|---|
+| 01 | [01_Logic_Gates_and_MUX](./01_Logic_Gates_and_MUX) | Fundamental logic gates (dataflow & structural) + 2:1 MUX (6 modeling styles) |
+| 02 | [02_Encoder_Comparator_Gray_Converter](./02_Encoder_Comparator_Gray_Converter) | 8:3 encoder, 4-bit magnitude comparator, 3-bit binary-to-Gray converter |
+| 03 | [03_BCD_Code_Converters](./03_BCD_Code_Converters) | BCD-to-Excess-3 and BCD-to-seven-segment converters |
+| 04 | [04_UpDown_Counter](./04_UpDown_Counter) | 4-bit up/down counter — synchronous & asynchronous reset |
+| 05 | [05_Vivado_Testbenches](./05_Vivado_Testbenches) | Testbench design in Vivado: MUX, self-checking comparator, D-FF, up/down counter |
+| 06 | [06_FSM_Sequence_Detector](./06_FSM_Sequence_Detector) | '1001' sequence detector — Mealy vs. Moore FSM |
+| 07 | [07_VCS_Simulation](./07_VCS_Simulation) | 4-bit universal shift register & 8-bit ALU — Synopsys VCS + GTKWave |
+| 08 | [08_VCS_Coverage_Analysis](./08_VCS_Coverage_Analysis) | Functional coverage (line/toggle/branch/condition) for USR & ALU |
+| 09 | [09_Logic_Synthesis](./09_Logic_Synthesis) | Logic synthesis (Design Compiler) — USR, ALU, and '10110' sequence detector |
+
+## Author
+**Farooq Abdulla**
+B.Tech, Electronics and Communication Engineering
+PG Diploma in Advanced VLSI Design and Verification, IBIS Academy, Kochi

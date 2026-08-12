@@ -1,0 +1,11 @@
+# Simulation artifacts
+*.vcd
+*.vvp
+*.log
+work/
+*.wlf
+transcript
+
+# OS files
+.DS_Store
+Thumbs.db
