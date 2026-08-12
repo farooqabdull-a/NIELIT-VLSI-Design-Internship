@@ -92,7 +92,7 @@ Focused on Verilog HDL modeling, behavioral & structural logic design, self-chec
 | 06 | [`06_FSM_Sequence_Detector`](./Digital%20VLSI%20Design/06_FSM_Sequence_Detector) | `'1001'` sequence detector designed and compared across Mealy and Moore state machines. |
 | 07 | [`07_VCS_Simulation`](./Digital%20VLSI%20Design/07_VCS_Simulation) | Compile & waveform generation for 4-bit Universal Shift Register (USR) & 8-bit ALU using **Synopsys VCS** and **GTKWave**. |
 | 08 | [`08_VCS_Coverage_Analysis`](./Digital%20VLSI%20Design/08_VCS_Coverage_Analysis) | Functional & code coverage metrics (Line, Toggle, Branch, Condition) generated via VCS `urg`. |
-| 09 | [`09_Logic_Synthesis`](./Digital%20VLSI%20Design/09_Logic_Synthesis) | ASIC logic synthesis using **Synopsys Design Compiler** for USR, ALU, and `'10110'` sequence detector (timing/area/power mapping). |
+| 09 | [`09_Logic_Synthesis`](./Digital%20VLSI%20Design/09_Synthesis_DesignCompiler) | ASIC logic synthesis using **Synopsys Design Compiler** for USR, ALU, and `'10110'` sequence detector (timing/area/power mapping). |
 
 ---
 
