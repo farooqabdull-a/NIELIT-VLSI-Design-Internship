@@ -1,0 +1,88 @@
+****************************************
+Report : area
+Design : seq_detector
+Version: W-2024.09
+****************************************
+Library(s) Used:
+ saed32rvt_ss0p95v125c
+
+Number of ports:                4
+Number of nets:                 18
+Number of cells:                13
+Number of combinational cells:  9
+Number of sequential cells:     3
+Number of buf/inv:               1
+Number of references:           10
+
+Combinational area:         20.331520
+Buf/Inv area:                 1.270720
+Noncombinational area:       21.348096
+Net Interconnect area:        3.584609
+Total cell area:             41.679616
+Total area:                  45.264226
+
+****************************************
+Report : power  (-analysis_effort low)
+Design : seq_detector
+****************************************
+Global Operating Voltage = 0.95
+Cell Internal Power   = 18.9164 uW (98%)
+Net Switching Power   = 416.4846 nW (2%)
+Total Dynamic Power   = 19.3328 uW (100%)
+Cell Leakage Power    = 2.1057 uW
+
+Power Group        Internal    Switching   Leakage      Total (%)
+clock_network       16.5013     0.0000      0.0000      16.5013 (76.97%)
+register             1.9539     0.3077      1.4317e+06   3.6933 (17.23%)
+combinational         0.4612     0.1088      6.7407e+05   1.2440 (5.80%)
+Total                18.9164 uW  0.4165 uW   2.1057e+06 pW  21.4386 uW
+
+****************************************
+Report : qor
+Design : seq_detector
+****************************************
+Timing Path Group 'clk'
+ Levels of Logic:          3.00
+ Critical Path Length:     0.38
+ Critical Path Slack:      0.56
+ Critical Path Clk Period: 1.00
+ Total Negative Slack:     0.00
+ No. of Violating Paths:   0.00
+
+Cell Count
+ Leaf Cell Count:          12
+ Combinational Cell Count: 9
+ Sequential Cell Count:    3
+
+Area
+ Cell Area:  41.679616
+ Design Area: 45.264226
+
+Design WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+Design (Hold) WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+****************************************
+Report : timing  (-path full -delay max -max_paths 1)
+Design : seq_detector
+****************************************
+Startpoint: current_state_reg[0] (rising edge-triggered FF, clk)
+Endpoint:   current_state_reg[1] (rising edge-triggered FF, clk)
+Path Group: clk / Path Type: max
+
+  Point                                             Incr    Path
+  ---------------------------------------------------------------
+  clock clk (rise edge)                             0.00    0.00
+  current_state_reg[0]/CLK (DFFARX1_RVT)            0.00    0.00 r
+  current_state_reg[0]/Q  (DFFARX1_RVT)             0.18    0.18 r
+  U13/Y  (NOR4X1_RVT)                                0.13    0.31 f
+  U18/Y  (INVX1_RVT)                                 0.02    0.34 r
+  U21/Y  (NAND3X0_RVT)                               0.04    0.38 f
+  current_state_reg[1]/D (DFFARX1_RVT)               0.00    0.38 f
+  data arrival time                                          0.38
+
+  clock clk (rise edge)                             1.00    1.00
+  current_state_reg[1]/CLK (DFFARX1_RVT)            0.00    1.00 r
+  library setup time                                -0.07    0.93
+  data required time                                          0.93
+  ---------------------------------------------------------------
+  slack (MET)                                                0.56
