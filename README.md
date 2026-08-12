@@ -44,7 +44,8 @@ The repository is structured into two main tracks:
     ├── 06_FSM_Sequence_Detector/
     ├── 07_VCS_Simulation/
     ├── 08_VCS_Coverage_Analysis/
-    └── 09_Logic_Synthesis/
+    ├── 09_Logic_Synthesis/
+    └── 10_VCS_Coverage_Analysis/
 
 ```
 
@@ -116,7 +117,7 @@ Focused on Verilog HDL modeling, behavioral & structural logic design, self-chec
 **Farooq Abdulla**
 
 * **B.Tech** in Electronics and Communication Engineering
-* **PG Diploma** in Advanced VLSI Design and Verification — *IBIS Academy, Kochi*
+* **PG Diploma** in Advanced VLSI Design and Verification
 
 ```
 
