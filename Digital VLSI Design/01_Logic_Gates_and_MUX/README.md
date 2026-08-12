@@ -27,4 +27,4 @@
 | `results/a01_q1_structural_schematic.png` | RTL schematic — structural gates |
 | `results/a01_q1_structural_simulation.png` | Simulation waveform — structural gates |
 
-**Tools used:** Vivado / ModelSim
+**Tools used:** Vivado 
