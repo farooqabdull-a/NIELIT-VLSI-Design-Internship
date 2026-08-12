@@ -45,7 +45,7 @@ The repository is structured into two main tracks:
     ├── 07_VCS_Simulation/
     ├── 08_VCS_Coverage_Analysis/
     ├── 09_Logic_Synthesis/
-    └── 10_VCS_Coverage_Analysis/
+    └──  Automatic Railway Level Crossing Controller/
 
 ```
 
@@ -82,17 +82,17 @@ Designed in $180\text{ nm}$ CMOS technology at $V_{DD} = 1.8\text{ V}$:
 
 Focused on Verilog HDL modeling, behavioral & structural logic design, self-checking testbenches, functional coverage metrics, and gate-level synthesis.
 
-| # | Project Directory | Description & Verification Scope |
-| --- | --- | --- |
-| 01 | [`01_Logic_Gates_and_MUX`](https://www.google.com/search?q=./Digital_VLSI_Design/01_Logic_Gates_and_MUX) | Gate primitives, dataflow vs. structural modeling, 2:1 MUX in 6 modeling styles. |
-| 02 | [`02_Encoder_Comparator_Gray_Converter`](https://www.google.com/search?q=./Digital_VLSI_Design/02_Encoder_Comparator_Gray_Converter) | 8:3 priority encoder, 4-bit magnitude comparator, 3-bit binary-to-Gray converter. |
-| 03 | [`03_BCD_Code_Converters`](https://www.google.com/search?q=./Digital_VLSI_Design/03_BCD_Code_Converters) | BCD-to-Excess-3 and BCD-to-7-segment display decoder logic. |
-| 04 | [`04_UpDown_Counter`](https://www.google.com/search?q=./Digital_VLSI_Design/04_UpDown_Counter) | 4-bit up/down counter featuring both synchronous and asynchronous reset modes. |
-| 05 | [`05_Vivado_Testbenches`](https://www.google.com/search?q=./Digital_VLSI_Design/05_Vivado_Testbenches) | Simulation stimulus design: MUX, self-checking comparator, D-FF, up/down counter in Vivado. |
-| 06 | [`06_FSM_Sequence_Detector`](https://www.google.com/search?q=./Digital_VLSI_Design/06_FSM_Sequence_Detector) | `'1001'` sequence detector designed and compared across Mealy and Moore state machines. |
-| 07 | [`07_VCS_Simulation`](https://www.google.com/search?q=./Digital_VLSI_Design/07_VCS_Simulation) | Compile & waveform generation for 4-bit Universal Shift Register (USR) & 8-bit ALU using **Synopsys VCS** and **GTKWave**. |
-| 08 | [`08_VCS_Coverage_Analysis`](https://www.google.com/search?q=./Digital_VLSI_Design/08_VCS_Coverage_Analysis) | Functional & code coverage metrics (Line, Toggle, Branch, Condition) generated via VCS `urg`. |
-| 09 | [`09_Logic_Synthesis`](https://www.google.com/search?q=./Digital_VLSI_Design/09_Logic_Synthesis) | ASIC logic synthesis using **Synopsys Design Compiler** for USR, ALU, and `'10110'` sequence detector (timing/area/power mapping). |
+| # | Project Directory | Key Objectives & Concepts Covered |
+|---|---|---|
+| 01 | [`01_Logic_Gates_and_MUX`](./Digital_VLSI_Design/01_Logic_Gates_and_MUX) | Gate primitives, dataflow vs. structural modeling, 2:1 MUX in 6 modeling styles. |
+| 02 | [`02_Encoder_Comparator_Gray_Converter`](./Digital_VLSI_Design/02_Encoder_Comparator_Gray_Converter) | 8:3 priority encoder, 4-bit magnitude comparator, 3-bit binary-to-Gray converter. |
+| 03 | [`03_BCD_Code_Converters`](./Digital_VLSI_Design/03_BCD_Code_Converters) | BCD-to-Excess-3 and BCD-to-7-segment display decoder logic. |
+| 04 | [`04_UpDown_Counter`](./Digital_VLSI_Design/04_UpDown_Counter) | 4-bit up/down counter featuring both synchronous and asynchronous reset modes. |
+| 05 | [`05_Vivado_Testbenches`](./Digital_VLSI_Design/05_Vivado_Testbenches) | Simulation stimulus design: MUX, self-checking comparator, D-FF, up/down counter in Vivado. |
+| 06 | [`06_FSM_Sequence_Detector`](./Digital_VLSI_Design/06_FSM_Sequence_Detector) | `'1001'` sequence detector designed and compared across Mealy and Moore state machines. |
+| 07 | [`07_VCS_Simulation`](./Digital_VLSI_Design/07_VCS_Simulation) | Compile & waveform generation for 4-bit Universal Shift Register (USR) & 8-bit ALU using **Synopsys VCS** and **GTKWave**. |
+| 08 | [`08_VCS_Coverage_Analysis`](./Digital_VLSI_Design/08_VCS_Coverage_Analysis) | Functional & code coverage metrics (Line, Toggle, Branch, Condition) generated via VCS `urg`. |
+| 09 | [`09_Logic_Synthesis`](./Digital_VLSI_Design/09_Logic_Synthesis) | ASIC logic synthesis using **Synopsys Design Compiler** for USR, ALU, and `'10110'` sequence detector (timing/area/power mapping). |
 
 ---
 
