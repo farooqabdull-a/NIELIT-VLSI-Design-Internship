@@ -34,4 +34,4 @@ XX_Project_Name/
 ## Author
 **Farooq Abdulla**
 B.Tech, Electronics and Communication Engineering
-PG Diploma in Advanced VLSI Design and Verification, IBIS Academy, Kochi
+PG Diploma in Advanced VLSI Design and Verification
