@@ -73,8 +73,8 @@ Designed in $180\text{ nm}$ CMOS technology at $V_{DD} = 1.8\text{ V}$:
 | **DC Open-Loop Gain** | $\ge 60\text{ dB}$ | **$125\text{ dB}$** |
 | **Gain-Bandwidth Product (GBW)** | $\le 1.0\text{ MHz}$ | **$1.0\text{ MHz}$** |
 | **Phase Margin** | $\ge 60^\circ$ | **$88^\circ$** |
-| **Slew Rate** | $\approx 5\text{ V/\mu s}$ | **$\approx 5\text{ V/\mu s}$** |
-| **Power Consumption** | Minimize | **$126\text{ \mu W}$** |
+| **Slew Rate** | $\approx 5\text{ V/mus}$ | **$\approx 5\text{ V/mus}$** |
+| **Power Consumption** | Minimize | **$126\text{ /muW}$** |
 
 ---
 
