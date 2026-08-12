@@ -3,10 +3,17 @@ Here is the raw Markdown code formatted specifically so you can copy and paste i
 ```markdown
 # Analog & Digital VLSI Design & Verification
 
-[![LTspice](https://img.shields.io/badge/LTspice-Analog%20Simulation-blue)](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
-[![Verilog](https://img.shields.io/badge/Verilog-RTL%20Design-orange)](https://en.wikipedia.org/wiki/Verilog)
-[![Xilinx Vivado](https://img.shields.io/badge/Xilinx-Vivado-red)](https://www.xilinx.com/products/design-tools/vivado.html)
-[![Synopsys VCS](https://img.shields.io/badge/Synopsys-VCS%20%26%20DC-purple)](https://www.synopsys.com/)
+<div align="center">
+
+![Verilog](https://img.shields.io/badge/VERILOG-HDL-0073B7?style=flat-square)
+![SystemVerilog](https://img.shields.io/badge/SYSTEMVERILOG-VERIFICATION-00599C?style=flat-square)
+![UVM](https://img.shields.io/badge/UVM-METHODOLOGY-2E7D32?style=flat-square)
+![Vivado](https://img.shields.io/badge/VIVADO-XILINX-FF6600?style=flat-square)
+![Synopsys](https://img.shields.io/badge/SYNOPSYS-VCS-5B2C6F?style=flat-square)
+![Cadence](https://img.shields.io/badge/CADENCE-VIRTUOSO-CC0000?style=flat-square)
+![LTspice](https://img.shields.io/badge/LTSPICE-ANALOG-003366?style=flat-square)
+
+</div>
 
 This repository consolidates all hands-on circuit design, RTL development, LTspice simulations, code coverage analysis, and synthesis work completed during the **Online Internship on Analog and Digital VLSI Design Flow (Batch 01)** hosted by **NIELIT – NIT Calicut**.
 
