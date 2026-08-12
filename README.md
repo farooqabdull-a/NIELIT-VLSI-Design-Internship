@@ -84,7 +84,7 @@ Focused on Verilog HDL modeling, behavioral & structural logic design, self-chec
 
 | # | Project Directory | Key Objectives & Concepts Covered |
 |---|---|---|
-| 01 | [`01_Logic_Gates_and_MUX`](./Digital_VLSI_Design/01_Logic_Gates_and_MUX) | Gate primitives, dataflow vs. structural modeling, 2:1 MUX in 6 modeling styles. |
+| 01 | [`01_Logic_Gates_and_MUX`](./Digital%20VLSI%20Design/01_Logic_Gates_and_MUX) | Gate primitives, dataflow vs. structural modeling, 2:1 MUX in 6 modeling styles. |
 | 02 | [`02_Encoder_Comparator_Gray_Converter`](./Digital_VLSI_Design/02_Encoder_Comparator_Gray_Converter) | 8:3 priority encoder, 4-bit magnitude comparator, 3-bit binary-to-Gray converter. |
 | 03 | [`03_BCD_Code_Converters`](./Digital_VLSI_Design/03_BCD_Code_Converters) | BCD-to-Excess-3 and BCD-to-7-segment display decoder logic. |
 | 04 | [`04_UpDown_Counter`](./Digital_VLSI_Design/04_UpDown_Counter) | 4-bit up/down counter featuring both synchronous and asynchronous reset modes. |
