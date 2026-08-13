@@ -30,6 +30,7 @@ XX_Project_Name/
 | 07 | [07_VCS_Simulation](./07_VCS_Simulation) | 4-bit universal shift register & 8-bit ALU — Synopsys VCS + GTKWave |
 | 08 | [08_VCS_Coverage_Analysis](./08_VCS_Coverage_Analysis) | Functional coverage (line/toggle/branch/condition) for USR & ALU |
 | 09 | [09_Synthesis_DesignCompiler](./09_Synthesis_DesignCompiler) | Logic synthesis (Design Compiler) — USR, ALU, and '10110' sequence detector |
+| 10 | [Automatic Railway Level Crossing Controller](./Automatic_Railway_Level_Crossing_Controller) | Design and verify a fail-safe Moore FSM–based railway crossing controller in Verilog — covering RTL design, self-checking verification with coverage, and logic synthesis with timing/area/power analysis. |
 
 ## Author
 **Farooq Abdulla**
